@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"go-project-190326/internal/server"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
+	server.StartServer()
 }
